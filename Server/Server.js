@@ -7,7 +7,7 @@ require("dotenv").config();
 const app = express();
 app.use(
 	cors({
-		origin: "http://52.197.251.65:7000",
+		origin: "*",
 	})
 );
 app.use(express.json());
